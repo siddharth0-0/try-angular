@@ -1,0 +1,110 @@
+.container {
+    top: 25%;
+    left: 25%;
+    margin-top: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    /* border-style: solid; */
+    /* position: absolute; */
+    /* height: 350px; */
+    /* width: 500px; */
+}
+
+
+/* input {
+    width: 60%;
+} */
+
+@media (min-width: 990px) {
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        background-color: burlywood;
+        padding: 8px 12px;
+        cursor: pointer;
+        /* margin: 5px 10px 5px 10px; */
+    }
+    h6 {
+        text-align: center;
+        padding-top: 1px;
+        padding-bottom: 3px;
+        margin: 10px;
+        color: tomato;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    option {
+        display: inline-block;
+        font-size: medium;
+        position: relative;
+    }
+    label {
+        color: snow;
+        padding: 4px;
+        font-weight: normal;
+        font-size: medium;
+    }
+    button {
+        margin: 15px;
+        padding: 10px;
+        background-color: skyblue;
+        /* width: 30%; */
+        font-size: medium;
+    }
+    p {
+        font-weight: bold;
+        font-size: medium;
+        letter-spacing: 2px;
+        color: crimson;
+        padding-left: 12px;
+    }
+    input {
+        width: 60%;
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: burlywood;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin: 5px 10px 5px 10px;
+}
+
+h6 {
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    margin: 10px;
+    color: tomato;
+    margin-bottom: 10px;
+}
+
+option {
+    display: inline-block;
+    font-size: medium;
+    position: relative;
+}
+
+label {
+    color: snow;
+    padding: 4px;
+    font-weight: normal;
+    font-size: medium;
+}
+
+button {
+    margin: 15px;
+    padding: 10px;
+    background-color: skyblue;
+    /* width: 30%; */
+    font-size: medium;
+}
+
+p {
+    font-weight: bold;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: crimson;
+    padding-left: 12px;
+}

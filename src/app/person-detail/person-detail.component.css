@@ -1,0 +1,78 @@
+@media (min-width: 680px) {
+    .container {
+        /* top: 25%;
+    left: 25%; */
+        margin-top: 10px;
+        padding: 10px 10px 10px 10px;
+        /* border-style: solid; */
+        /* position: absolute; */
+        background: transparent;
+    }
+    h6 {
+        text-align: center;
+        color: orange;
+        margin-bottom: 10px;
+    }
+    label {
+        font-weight: normal;
+        font-size: medium;
+        color: whitesmoke;
+    }
+    button {
+        margin: 20px;
+        text-align: center;
+        padding: 10px;
+        background-color: #008CBA;
+        /* width: 30%; */
+        font-weight: bold;
+        font-size: medium;
+        /* position: absolute; */
+    }
+    p {
+        font-weight: bold;
+        font-size: medium;
+        letter-spacing: 2px;
+        color: crimson;
+        padding-left: 15px;
+    }
+}
+
+.container {
+    /* top: 25%;
+left: 25%; */
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    /* border-style: solid; */
+    /* position: absolute; */
+    background: transparent;
+}
+
+h6 {
+    text-align: center;
+    color: orange;
+}
+
+label {
+    font-weight: normal;
+    font-size: medium;
+    color: whitesmoke;
+}
+
+button {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #008CBA;
+    /* width: 30%; */
+    font-weight: bold;
+    font-size: medium;
+    /* position: absolute; */
+}
+
+p {
+    font-weight: bold;
+    font-size: medium;
+    letter-spacing: 2px;
+    color: crimson;
+    padding-left: 15px;
+}

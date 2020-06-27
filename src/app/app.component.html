@@ -1,0 +1,129 @@
+<!-- <person-detail></person-detail>
+
+<user-detail></user-detail> -->
+
+
+<div class="row">
+    <ul class="topnav">
+        <img class="icons">
+        <li role="presentation" class="active"><a routerLink="/input">Home</a> </li>
+        <!-- <li role="presentation" class="active"><a routerLink="/input">Add user</a> </li> -->
+        <li role="presentation" class="active"><a routerLink="/email">Emails</a> </li>
+        <!-- <li role="presentation" class="active"><a routerLink="/detail">Details</a> </li> -->
+    </ul>
+</div>
+<div class="container" style="left: 50%; right: 50%;">
+    <section id="sec1" style="background-color: black;">
+        <div class="flex-container">
+            <img class="mob" src="/assets/img/sams.png">
+
+            <div class="para">
+                <p>one page to manage your gym</p>
+            </div>
+            <div class="loginbox">
+                <div class="button-box">
+                    <button type="button" class="toggle-btn" class="active"><a routerLink="/input">Register</a></button>
+                    <button type="button" class="toggle-btn" class="active"><a routerLink="/detail">Info</a></button>
+                </div>
+                <div>
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sec2" style="background-color: whitesmoke;">
+        <!-- <div class="btwtxt" style="color: orangered;"> _________________________________________________________________________________________________________________________</div> -->
+        <p class="lab">Individuals</p>
+        <div class="card-group">
+            <div class="card" style=" margin-top: 50px;">
+                <img class="card-img-top" src="/assets/img/tb.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Keep Track Of Daily Progress</p>
+                </div>
+            </div>
+            <div class="card" style=" margin-top: 50px;">
+                <img class="card-img-top" src="/assets/img/tb.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text1">Keep Track Of Daily Progress</p>
+                </div>
+
+            </div>
+            <div class="card" style=" margin-top: 50px;">
+                <img class="card-img-top" src="/assets/img/tb.png" alt="Card image cap">
+                <div class="card-body">
+
+                    <p class="card-text1">Keep Track Of Daily Progress</p>
+                </div>
+
+            </div>
+            <div class="card" style=" margin-top: 50px;">
+                <img class="card-img-top" src="/assets/img/tb.png" alt="Card image cap">
+                <div class="card-body">
+
+                    <p class="card-text1">Keep Track Of Daily Progress</p>
+                </div>
+
+            </div><br>
+        </div>
+        <div class="wrapper1">
+            <button class="btn1" (click)="topFunction()">Scroll Up</button>
+        </div>
+    </section>
+    <section id="sec3" style="background-color: whitesmoke;">
+        <p class="lab">GYM Card</p>
+        <div class="card-group">
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/tb.png" alt="Card image cap">
+                <div class="card-body">
+                    <!-- <h5 class="card-title">Card title</h5> -->
+                    <p class="card-text">Tryots again</p>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/tb.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Trying Cards2</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/tb.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Trying Cards3</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img-top" src="/assets/img/tb.png" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Trying Cards4</p>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper1">
+            <button class="btn1" (click)="topFunction()">Scroll Up</button>
+        </div>
+    </section>
+    <section id="sec4" style="background-color:grey;">
+        <div class="flex-container">
+            <div class="para2">
+                <p style="color: orange;  font-size: larger;">Download AbKaro App From Here</p>
+            </div>
+            <div class="appst">
+                <img class="logos1" src="/assets/img/logo2.png">
+            </div>
+        </div>
+    </section>
+    <section id="sec5" style="background-color:black;">
+        <footer>
+            <img class="logos">
+            <p style="margin-top: 20px;">This is Footer of test
+            </p>
+        </footer>
+    </section>
+
+
+</div>

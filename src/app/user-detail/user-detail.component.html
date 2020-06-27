@@ -1,0 +1,21 @@
+<h6>Select Email</h6>
+
+<div class="container">
+    <div class="row">
+        <div class="dropdown">
+            <label for="cars">Choose a Email : </label>
+            <select (change)="noClick($event)">
+                <option  value="0">--Select--</option>
+                
+                <option *ngFor="let mail of mails" [ngValue]="mail">
+                    {{mail}}
+                </option>
+            
+            </select>
+        </div>
+    </div>
+    <!-- <button class="btn btn-primary" (click)="onEmailClick()">
+        Submit
+    </button> -->
+    <p>Selected Email : {{ selectEmail }}</p>
+</div>

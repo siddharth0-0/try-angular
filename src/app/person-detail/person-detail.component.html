@@ -1,0 +1,29 @@
+<h6>
+    Details Form
+</h6>
+<div class="container">
+
+    <tr>
+
+        <label>First name : </label>
+        <input [(ngModel)]="registerUser.first_name" type="text" class="form-control" />
+
+    </tr>
+    <tr>
+
+        <label>Last Name : </label>
+        <input [(ngModel)]="registerUser.last_name" type="text" class="form-control" />
+
+    </tr>
+
+
+    <tr>
+        <label>Email Id : </label>
+        <input [(ngModel)]="registerUser.email" type="email" class="form-control" />
+    </tr>
+
+    <button class="btn btn-primary" (click)="onButtonClick()"> Submit</button>
+    <p>
+        {{messageOnClick}}
+    </p>
+</div>

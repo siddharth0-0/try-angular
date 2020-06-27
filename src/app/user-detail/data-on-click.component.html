@@ -1,0 +1,76 @@
+<h6>Data Fetch Page</h6>
+
+<div class="container">
+    <div class="row">
+        <div class="dropdown">
+            <label for="cars">Choose a Email : </label>
+            <select [(ngModel)]="selectEmail.email">
+            <!-- <select (change)="noClick($event)"> -->
+
+                <option value="0">--Select--</option>
+                
+                <option *ngFor="let mail of mails" [ngValue]="mail">
+                    {{mail}}
+                </option>
+            
+            </select>
+        </div>
+
+    </div>
+    <button class="btn btn-primary" (click)="onDataClick()">Submit</button>
+    <p>
+        <label> User Id : 
+        {{getData.user_id}} </label>
+    </p>
+    <p>
+        <label> First Name :  </label>
+        <input [(ngModel)]="getData.first_name" type="text" class="form-control" />
+    </p>
+    <p>
+        <label> Last Name : </label>
+        <input [(ngModel)]="getData.last_name" type="text" class="form-control" />
+    </p>
+    <p>
+        <label> Email : </label>
+        <input [(ngModel)]="getData.email" type="text" class="form-control" />
+    </p>
+    <!-- <p>User Id : {{getData.user_id}}</p> -->
+    <!-- <p>First Name : {{getData.first_name}}</p>
+    <p>Last Name : {{getData.last_name}}</p>
+    <p>Email : {{getData.email}}</p> -->
+
+    <!-- <button class="btn btn-primary" (click)="onEditClick()">Edit</button>
+    <p>
+        {{editResponse}}
+    </p> -->
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container2">
+    <div class="row">
+        <div class="dropdown">
+            <label for="cars">Choose a Email : </label>
+            <select [(ngModel)]="selectEmail">
+                <option value="0">--Select--</option>
+                
+                <option *ngFor="let mail of mails">
+                    {{mail}}
+                </option>
+            
+            </select>
+        </div>
+
+    </div>
+    <button class="btn btn-primary" (click)="onEmailClick()">Submit</button>
+    <p>{{ onUpdate }}</p>
+</div> -->
